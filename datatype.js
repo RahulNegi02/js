@@ -21,3 +21,19 @@ let isLoggedIn = false
 
 console.log(typeof null);
 console.log(typeof undefined);
+
+
+// stack => stack is a data structure which follows LIFO(Last In First Out) principle
+// heap => heap is a data structure which follows FIFO(First In First Out) principle
+
+let myname = "Rahul"
+let anothername = myname
+myname = "Rahul123"
+console.log(myname);
+console.log(anothername);
+
+let user1 = {name:"Rahul",age:22}
+let user2 = user1
+user1.name = "Rahul123"
+console.log(user1.name);
+console.log(user2.name);
